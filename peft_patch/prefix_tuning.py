@@ -24,10 +24,10 @@ class PrefixTuningConfig(PromptLearningConfig):
 
 class PrefixEncoder(torch.nn.Module):
     """
-    MetaPrefix 修改版 PrefixEncoder：
-    1. 四层 MLP 投影替代原始两层 MLP；
-    2. 加入 Multi-Head Cross-Attention，使 prefix 与输入序列 hidden states 交互；
-    3. 输出仍为 PEFT Prefix-Tuning 需要的 past_key_values 形状。
+    MetaPrefix Modified PrefixEncoder:
+    1. Four-layer MLP projection replaces the original two-layer MLP;
+    2. Added Multi-Head Cross-Attention to let the prefix interact with the input sequence hidden states;
+    3. The output is still in the past_key_values shape required by PEFT Prefix-Tuning.
     """
 
     def __init__(self, config):
@@ -43,7 +43,7 @@ class PrefixEncoder(torch.nn.Module):
         if self.prefix_projection and not getattr(config, "inference_mode", False):
             self.embedding = nn.Embedding(self.num_virtual_tokens, self.token_dim)
 
-            # 四层 MLP：输入层 -> 两个隐藏层 -> 输出层
+            #4-layer MLP: input layer -> two hidden layers -> output layer
             self.transform = nn.Sequential(
                 nn.Linear(self.token_dim, self.encoder_hidden_size),
                 nn.Tanh(),
