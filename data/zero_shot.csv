@@ -1,0 +1,24 @@
+peptide_id,Sequence,Breast cancer,Lung cancer,Hepatocellular carcinoma (HCC),Liver cancer,Melanoma,Colon adenocarcinoma,Ovarian cancer,Cervical cancer,Kidney cancer,Pancreatic cancer,Prostate cancer,Central nervous system glioma,Cutaneous squamous cell carcinoma (cSCC),Bladder cancer,Lymphoma,Neuroblastoma,Osteosarcoma,Rhabdomyosarcoma,Multiple myeloma,Fibrosarcoma,Head and neck squamous cell carcinoma (HNSCC),Esophageal cancer,Endometrial cancer,Gastric cancer,Leukemia,Nasopharyngeal carcinoma (NPC),Pleural mesothelioma,Retinoblastoma,cluster_id,split_group_id,dataset,group_split
+seq_41,AFALIAGALYRIFHRR,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,Cluster_815,SG01750,Zero-shot,ZS_excluded
+seq_268,CLLFVY,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Cluster_2047,SG01029,Zero-shot,ZS_excluded
+seq_291,CNRRTKAGC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Cluster_1559,SG00497,Zero-shot,ZS_excluded
+seq_344,CSDSWHYWC,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Cluster_1584,SG00525,Zero-shot,ZS_excluded
+seq_986,GILSKLGKALKKAAKHAAKA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Cluster_548,SG01504,Zero-shot,ZS_excluded
+seq_1121,GLLRRLRDFLKKIGEKFKKIGY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Cluster_450,SG01407,Zero-shot,ZS_excluded
+seq_1387,IDWKKLLDAAKQIL,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,Cluster_984,SG01904,Zero-shot,ZS_excluded
+seq_1729,KKVVFWVKFK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Cluster_1485,SG00424,Zero-shot,ZS_excluded
+seq_1858,KSCCKNTTGRNIYNTCRFAGGSRERCAKLSGCKIISASTCPSYPDK,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Cluster_30,SG00869,Zero-shot,ZS_excluded
+seq_1967,KWRWIW,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Cluster_2080,SG01066,Zero-shot,ZS_excluded
+seq_1974,KWWWRW,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Cluster_2081,SG01067,Zero-shot,ZS_excluded
+seq_2108,LPAMPNS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Cluster_1936,SG00907,Zero-shot,ZS_excluded
+seq_2309,PNPNNST,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Cluster_1973,SG00948,Zero-shot,ZS_excluded
+seq_2702,RVLVY,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Cluster_2180,SG01175,Zero-shot,ZS_excluded
+seq_2732,RWKIFKKIEKMGRNIRDGIVKAGPAIEVLGSAKAIGK,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Cluster_83,SG01662,Zero-shot,ZS_excluded
+seq_2838,SKKSKPGDGIRGKGVRG,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Cluster_812,SG01747,Zero-shot,ZS_excluded
+seq_2883,SRHDLNS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Cluster_2003,SG00981,Zero-shot,ZS_excluded
+seq_2891,STVATSQ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Cluster_2005,SG00983,Zero-shot,ZS_excluded
+seq_2946,TWWRWW,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Cluster_2111,SG01100,Zero-shot,ZS_excluded
+seq_3271,WRWFIH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Cluster_2125,SG01115,Zero-shot,ZS_excluded
+seq_3326,YPTPYDI,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Cluster_2037,SG01018,Zero-shot,ZS_excluded
+seq_3334,YSFNSWM,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Cluster_2038,SG01019,Zero-shot,ZS_excluded
+seq_3335,YSINDWH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Cluster_2039,SG01020,Zero-shot,ZS_excluded
